@@ -4,7 +4,7 @@ import { InjectModel } from '@nestjs/azure-database';
 import { User } from "./user.entity";
 import { Body, Get, Post } from '@nestjs/common';
 import { IUserDto } from './user.dto';
-import { AzureCosmosDbModule } from '@nestjs/azure-database';
+
 
 @Controller('user')
 export class UserController {
